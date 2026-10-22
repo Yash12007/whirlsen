@@ -1,9 +1,15 @@
 [
     {
         "id": "001",
+        "name": "Hallows' Eve",
+        "description": "Celebrate this hallowen with whirlsen",
+        "data": "<img src='https://whirlsen.yash12007.com/Assets/HappyHallowen.png' width='100%' alt='Hallows Eve'><b>Hallows Eve</b><p>Celebrate this hallowen with whirlsen</p><i>Starts on: 31st Oct 2026</i>"
+    },
+    {
+        "id": "002",
         "name": "Akari AI",
         "description": "A complete new Anime Avatar Akari AI presented by Whirlsen Mobile",
-        "data": "<img src='https://whirlsen.yash12007.com/Assets/Akari_AI.webp' width='100%' alt='Akari AI'><b>Akari AI</b><p>A complete new Anime Avatar Akari AI presented by Whirlsen Mobile</p>",
+        "data": "<img src='https://whirlsen.yash12007.com/Assets/Akari_AI.webp' width='100%' alt='Akari AI'><b>Akari AI</b><p>A complete new Anime Avatar Akari AI presented by Whirlsen Mobile</p><i>Date: 20th Oct 2026</i>",
         "link": "https://play.google.com/store/apps/details?id=com.yash12007.whirlsen"
     }
 ]
