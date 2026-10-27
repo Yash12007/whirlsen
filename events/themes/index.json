@@ -5,5 +5,29 @@
     "bg-main": "#111111",
     "text-main": "#ffffff",
     "accent": "#00ffff"
+  },
+  "theme_cyberpunk": {
+    "name": "Cyberpunk Neon",
+    "description": "An ultra-modern high contrast neon theme with glowing borders and deep dark backgrounds.",
+    "author": "Yash",
+    "version": "1.0",
+    
+    "bg-main": "#05050a",
+    "text-main": "#00ffcc",
+    "text-secondary": "#ff007f",
+    "accent": "#ff007f",
+    "accent-alt": "#00ffcc",
+    "bg-overlay": "#121222cc",
+    
+    "border-light": "#00ffcc55",
+    "border-dark": "#ff007f55",
+    "shadow-accent": "#ff007f88",
+    "shadow-light": "#00ffcc88",
+    
+    "code-bg": "#0a0a14",
+    "error-text": "#ff3366",
+    
+    "custom-card-radius": "16px",
+    "custom-glow-effect": "0 0 15px rgba(0, 255, 204, 0.4)"
   }
 }
