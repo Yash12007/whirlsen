@@ -1,0 +1,9 @@
+{
+  "theme_dark_mode": {
+    "name": "Midnight Dark Theme",
+    "description": "A beautiful dark theme that is easy on the eyes.",
+    "bg-main": "#111111",
+    "text-main": "#ffffff",
+    "accent": "#00ffff"
+  }
+}
