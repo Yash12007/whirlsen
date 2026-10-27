@@ -10,7 +10,8 @@ by [Yash12007](https://play.google.com/store/apps/dev?id=5438219830337981532)
 |---|---|
 | Whirlsen | [whirlsen.yash12007.com](https://whirlsen.yash12007.com) | 
 | Google Play | [com.yash12007.whirlsen](https://play.google.com/store/apps/details?id=com.yash12007.whirlsen) |
-| Twitter / (X) | [@whirlsen](https://x.com/whirlsen)
+| Twitter / (X) | [@whirlsen](https://x.com/whirlsen) |
+| Languages | [languages.md](languages.md) |
 
 ## Rated for
 -  Age 3+ according to IARC, [Learn more](https://support.google.com/googleplay?p=appgame_ratings)
