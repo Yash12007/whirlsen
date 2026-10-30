@@ -1,0 +1,17 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.yash12007.whirlsen",
+      "sha256_cert_fingerprints": [
+        "C6:76:80:93:13:A5:B1:73:8C:6D:2F:04:CB:66:72:83:99:7F:52:3E:10:B9:2C:51:DA:D4:D8:69:25:67:00:54",
+        "DD:78:81:EE:EB:75:E4:67:A2:EB:69:C2:50:54:C6:75:3E:43:BF:18:65:51:29:ED:8D:9A:86:6F:84:72:5E:F4",
+        "5B:96:1E:B3:E0:94:0A:F7:FF:3E:6A:E1:13:A2:AC:49:05:1E:AD:87:44:BA:07:9E:5E:34:F6:67:68:92:63:C9"
+      ]
+    }
+  }
+]
