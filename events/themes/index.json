@@ -1,4 +1,23 @@
 {
+  "theme_hallowseve": {
+    "name": "Hallow's Eve",
+    "description": "Festive theme for Whirlsen with pumpkin accent and dark theme",
+    "author": "Yash",
+    "version": "1.0",
+
+    "bg-main": "#05050a",
+    "text-main": "#ffffff",
+    "text-secondary": "#E96A18",
+    "accent": "#EC9731",
+    "accent-alt": "#eeeeee",
+    "bg-overlay": "#222222",
+    "border-light": "#EBBF37",
+    "border-dark": "#932B19",
+    "code-bg": "#4B2208",
+    "error-text": "#ff3366",
+    "custom-card-radius": "1rem",
+    "custom-glow-effect": "0 0 15px #2227"
+  },
   "theme_dark_mode": {
     "name": "Midnight Dark Theme",
     "description": "A beautiful dark theme that is easy on the eyes.",
@@ -29,24 +48,5 @@
     
     "custom-card-radius": "16px",
     "custom-glow-effect": "0 0 15px rgba(0, 255, 204, 0.4)"
-  },
-  "theme_hallowseve": {
-    "name": "Hallow's Eve",
-    "description": "Festive theme for Whirlsen with pumpkin accent and dark theme",
-    "author": "Yash",
-    "version": "1.0",
-
-    "bg-main": "#05050a",
-    "text-main": "#ffffff",
-    "text-secondary": "#E96A18",
-    "accent": "#EC9731",
-    "accent-alt": "#eeeeee",
-    "bg-overlay": "#222222",
-    "border-light": "#EBBF37",
-    "border-dark": "#932B19",
-    "code-bg": "#4B2208",
-    "error-text": "#ff3366",
-    "custom-card-radius": "1rem",
-    "custom-glow-effect": "0 0 15px #2227"
   }
 }
