@@ -3,7 +3,8 @@
         "id": "001",
         "name": "Hallows' Eve",
         "description": "Celebrate this hallowen with whirlsen",
-        "data": "<img src='https://whirlsen.yash12007.com/Assets/HappyHallowen.png' width='100%' alt='Hallows Eve'><b>Hallows Eve</b><p>Celebrate this hallowen with whirlsen</p><i>Starts on: 31st Oct 2026</i>"
+        "data": "<img src='https://whirlsen.yash12007.com/Assets/HappyHallowen.png' width='100%' alt='Hallows Eve'><b>Hallows Eve</b><p>Celebrate this hallowen with whirlsen</p><i>Starts on: 31st Oct 2026</i>",
+        "scheme": "whirlsen://shop"
     },
     {
         "id": "002",
