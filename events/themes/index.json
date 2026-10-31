@@ -4,6 +4,7 @@
     "description": "Festive theme for Whirlsen with pumpkin accent and dark theme",
     "author": "Yash12007",
     "version": "1.0",
+    "logo": "https://whirlsen.yash12007.com/Assets/HappyHallowen.png",
 
     "bg-main": "#05050a",
     "text-main": "#ffffff",
