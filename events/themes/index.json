@@ -1,4 +1,25 @@
 {
+  "theme_diwali": {
+    "name": "Diwali Festival",
+    "description": "A radiant festive theme celebrating Diwali with warm golden diya lights, deep royal maroon tones, and festive glow effects.",
+    "author": "Yash12007",
+    "version": "1.0",
+    "logo": "https://whirlsen.yash12007.com/Assets/Diwali.png",
+    "bg-main": "#0E070C",
+    "text-main": "#FFF4E0",
+    "text-secondary": "#FFD700",
+    "accent": "#FF8C00",
+    "accent-alt": "#FFD700",
+    "bg-overlay": "#24101A",
+    "border-light": "#FFD70055",
+    "border-dark": "#E6394655",
+    "shadow-accent": "#FF8C0088",
+    "shadow-light": "#FFD70088",
+    "code-bg": "#1A0D12",
+    "error-text": "#FF3366",
+    "custom-card-radius": "16px",
+    "custom-glow-effect": "0 0 18px rgba(255, 215, 0, 0.45)"
+  },
   "theme_hallowseve": {
     "name": "Hallow's Eve",
     "description": "Festive theme for Whirlsen with pumpkin accent and dark theme",
@@ -20,7 +41,7 @@
     "custom-glow-effect": "0 0 15px #2227"
   },
   "theme_dark_mode": {
-    "name": "Midnight Dark Theme",
+    "name": "Midnight Dark",
     "description": "A beautiful dark theme that is easy on the eyes.",
     "bg-main": "#111111",
     "text-main": "#ffffff",
