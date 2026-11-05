@@ -1,10 +1,17 @@
 [
     {
         "id": "001",
+        "name": "Diwali Festive Theme is Live",
+        "description": "A radiant festive Diwali theme featuring warm golden diya lights, deep royal maroon tones, and a festive glow.",
+        "data": "<b>Diwali Festive Theme is Live</b><p>A radiant festive Diwali theme featuring warm golden diya lights, deep royal maroon tones, and a festive glow.</p><i>Starts on: 8th Nov 2026</i>",
+        "link": "whirlsen://shop"
+    },
+    {
+        "id": "001",
         "name": "Hallow's Eve",
         "description": "Pumpkin theme is LIVE now, open the shop in whirlsen to get your pumpkin hallowen theme",
         "data": "<b>Hallows' Eve</b><p>Pumpkin theme is LIVE now, open the shop in whirlsen to get your pumpkin hallowen theme</p>",
-        "link": "https://play.google.com/store/apps/details?id=com.yash12007.whirlsen"
+        "link": "whirlsen://shop"
     },{
         "id": "002",
         "name": "Akari AI",
