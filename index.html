@@ -160,7 +160,7 @@
       justify-content: space-between;
       border: 2px solid #fff;
       border-radius: 1rem;
-      padding: 20px 40px;
+      padding: 10px 20px;
       box-shadow: 0 0 20px 1px #a0f inset;
       margin: 10px auto;
       cursor: pointer;
@@ -168,7 +168,7 @@
       transition: all 0.3s ease-in-out;
     }.Release:hover{scale: 0.9;}
     #releases{
-      width: calc(100% - 20px);
+      width: 100%;
       padding: 10px;
       border: 2px solid #fff;
       border-radius: 1rem;
@@ -257,14 +257,14 @@
         max-height: none;
         object-fit: contain;
       }
-    }
+    }#LFS li{margin: 10px auto; font-size: 0.7rem;}
   </style>
 </head>
 <body>
   <nav class="navbar md:navbar-expand bg-1">
     <div class="container-fluid">
       <a class="navbar-brand" href="#" style="font-weight: 600; display: flex; place-items: center; justify-content: start; gap: 8px;">
-        <img src="Assets/Akari.png" alt="Logo" width="30" height="30" style="border-radius: 50%;" class="d-inline-block align-text-top">
+        <img src="Assets/Akari.png" alt="Logo" width="30" height="30" style="border-radius: 10px;" class="d-inline-block align-text-top">
         Whirlsen
       </a>
       <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarDrawer" aria-controls="navbarDrawer" aria-expanded="false" aria-label="Toggle navigation">
@@ -307,6 +307,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#downloads">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#latest">Latest updates</a>
             </li>
           </ul>
         </div>
@@ -371,7 +374,6 @@
       <span class="badge-featured">NEW FEATURE</span>
       <span class="text-muted small">Whirlsen Developer Suite</span>
     </div>
-
     <div class="row align-items-center g-4">
       <!-- Text Description -->
       <div class="col-lg-7">
@@ -509,26 +511,41 @@
   <section id="downloads">
     <h5>Download</h5>
     <p>Whirlsen is available on Google Play Store officially released by Yash12007 on 14th Aug 2026, and the latest update of Whirlsen is published on <span id="latestReleaseDate"></span>.</p>
-    <lite-youtube videoid="QhoJBVvbxU8" playlabel="Play: Why You Need Akari AI on Your Mobile" style="border-radius: 1rem;"></lite-youtube>
-    <div>
-      <a target="_blank" href="https://play.google.com/store/apps/details?id=com.yash12007.whirlsen" style="width: fit-content; margin: 20px 0px; aspect-ratio: 5/2; gap: 10px; padding: 10px; border: 2px solid #fff; border-radius: 1rem; display: flex; place-items: center; justify-content: space-between; color: #fff; text-decoration: none;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
-          <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055zM1 13.396V2.603L6.846 8zM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27"/>
-        </svg>
-        <div style="display: flex; flex-direction: column;">
-          <i>Get it on</i>
-          <b>Google Play</b>
+    <lite-youtube videoid="QhoJBVvbxU8" playlabel="Play: Why You Need Akari AI on Your Mobile" style="border-radius: 1rem; margin: 20px auto;"></lite-youtube>
+    <div style="display: flex; flex-direction: column; place-items: center; justify-content: center;">
+        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.yash12007.whirlsen" style="width: 165px !important; margin: 20px 0px; aspect-ratio: 5/2; gap: 10px; padding: 10px; border: 1px solid #ccc7; border-radius: 1rem; display: flex; place-items: center; justify-content: space-between; color: #fff; text-decoration: none;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
+            <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055zM1 13.396V2.603L6.846 8zM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27"/>
+          </svg>
+          <div style="display: flex; flex-direction: column;">
+            <i>Get it on</i>
+            <b>Google Play</b>
+          </div>
+        </a>
+        <div style="display: flex; place-items: center; gap: 10px; justify-content: center; flex-wrap: wrap;">
+          <a style="width: fit-content; margin: 20px auto;" href="https://www.producthunt.com/products/whirlsen?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-whirlsen" target="_blank" rel="noopener noreferrer"><img alt="Whirlsen - Developer-Focused Interface | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1234959&amp;theme=dark&amp;t=1787922426325"></a>
+          <a href="https://startupbase.io/products/whirlsen?utm_source=startupbase&utm_medium=badge&utm_campaign=launch-badge-dark" target="_blank" rel="noopener noreferrer">
+            <img src="https://statics.startupbase.io/site/badges/launched-on-sb-dark.svg" alt="Launched on StartupBase" height="55" style="height:55px;width:auto;" />
+          </a>
         </div>
-      </a>
-      <a style="width: 100%; margin: 20px auto;" href="https://www.producthunt.com/products/whirlsen?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-whirlsen" target="_blank" rel="noopener noreferrer"><img alt="Whirlsen - Developer-Focused Interface | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1234959&amp;theme=dark&amp;t=1787922426325"></a>
-      <a href="https://startupbase.io/products/whirlsen?utm_source=startupbase&utm_medium=badge&utm_campaign=launch-badge-dark" target="_blank" rel="noopener noreferrer">
-        <img src="https://statics.startupbase.io/site/badges/launched-on-sb-dark.svg" alt="Launched on StartupBase" height="55" style="height:55px;width:auto;" />
-      </a>
     </div>
     <section>
       <b>Releases</b>
       <div id="releases"></div>
     </section>
+  </section>
+  <section id="latest">
+    <div style="color: #0ef; box-shadow: inset 0 0 20px 1px #0ef7; border-radius: 5px; padding: 5px 15px; border: 1px solid #0ef; width: fit-content;">
+        <b>Latest updates</b>
+      </div>
+      <ul id="LFS" style="padding: 10px 20px; margin: 10px auto; border: 1px solid #fff3; border-radius: 10px;">
+        <li>Instant GSI (Google Sign-in Interface) helps to create your profile which is sharable as an image to your friends</li>
+        <li>The very new features of Whirlsen includes the IDE (Integrated Development Environment) including a terminal for developers to access android CLI (Command Line Interface)</li>
+        <li>The festive themes such as Hallows' Eve and Diwali can be changed by one tap, and the theme colors are visible in-app with details which shows how the app will looks a like</li>
+        <li>Updates on Stella Coins includes a feature where users can buy coins pack according to their needs in bulk order (if they don't want to earn by watching ads)</li>
+        <li>Wireless touch mouse is the newest feature where users can control their devices such as laptop through phone with keyboard and mouse interactions including voice typing that works completely wireless</li>
+        <li>Characters button is one of the most amazing feature in whirlsen where the characters introduction will be done in fullscreen video which adds immersive experience to the users</li>
+      </ul>
   </section>
   <footer>
     <img src="Assets/Akari.png" width="50" height="50" alt="Whirlsen Logo" style="border-radius: 10px;">
